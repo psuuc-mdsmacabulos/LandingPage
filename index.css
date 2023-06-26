@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: black;
+    color: #fff;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.container .logo span {
+    color: #f15048;
+}
+nav {
+    height: 80px;
+}
+nav h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: white;
+}
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 7px 8px;
+}
+a:hover {
+    background-color: #f15048;
+    transition: 0.5s ease;
+}
+body {
+    min-height: 100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(pexels-victor-freitas-841130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.download {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.download h1 {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.download p {
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.download .btn {
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+footer{
+    background: #222222;
+    height: auto;
+    width: 100%;
+    font-family: "Roboto";
+    color: white;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+}
+.footer-content{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: x-large;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content h3 span{
+    color: #f15048;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px;
+    line-height: 20px;
+    font-size: medium;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem  3rem ;
+}
+.socials li{
+    margin: 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: #f15048;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+.footer-bottom span{
+    color: #f15048;
+}
+
